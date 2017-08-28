@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/split#readme",
   "repository": "github:unctionjs/split",
   "bugs": "https://github.com/unctionjs/split/issues",
-  "main": "transpiled/source.js",
+  "main": "transpiled/index.js",
   "nyc": {
     "require": [
       "babel-register"
@@ -64,6 +64,5 @@
     "@unction/flip": "2.0.0",
     "@unction/ifthenelse": "2.0.0",
     "@unction/reducevalues": "2.2.0"
-  },
-  "main": "transpiled/index.js"
+  }
 }
