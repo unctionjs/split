@@ -58,11 +58,11 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/always": "2.0.0",
-    "@unction/append": "2.1.0",
-    "@unction/equals": "1.0.0",
-    "@unction/flip": "2.0.0",
-    "@unction/ifthenelse": "2.0.0",
+    "@unction/always": "2.1.0",
+    "@unction/append": "2.2.0",
+    "@unction/equals": "1.1.0",
+    "@unction/flip": "2.1.0",
+    "@unction/ifthenelse": "2.1.0",
     "@unction/reducevalues": "2.2.0"
   }
 }
