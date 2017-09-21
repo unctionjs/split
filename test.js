@@ -11,3 +11,22 @@ test(({same, end}) => {
 
   end()
 })
+
+test(({same, end}) => {
+  same(
+    split(" ")("ab"),
+    ["ab"]
+  )
+
+  end()
+})
+
+
+test(({same, end}) => {
+  same(
+    split("")("a  b"),
+    ["a", "", "b"]
+  )
+
+  end()
+})
