@@ -57,12 +57,7 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/always": "2.3.0",
-    "@unction/append": "2.4.0",
-    "@unction/equals": "1.4.0",
-    "@unction/flip": "2.3.0",
-    "@unction/ifthenelse": "2.3.0",
-    "@unction/reducevalues": "2.5.0"
+    "@unction/equals": "1.4.0"
   },
   "files": [
     "transpiled/index.js"
