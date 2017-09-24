@@ -11,3 +11,40 @@ test(({same, end}) => {
 
   end()
 })
+
+test(({same, end}) => {
+  same(
+    split(" ")("a  b"),
+    ["a", "", "b"]
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    split("")("a b"),
+    ["a", " ", "b"]
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    split("---")("a---b"),
+    ["a", "b"]
+  )
+
+  end()
+})
+
+
+test(({same, end}) => {
+  same(
+    split(/-+/)("a---b"),
+    ["a", "b"]
+  )
+
+  end()
+})

@@ -4,12 +4,13 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> string => string => Array<string>
+> StringType => (StringType | Regexp) => Array<StringType>
 
 Splits up a string by a delimiter.
 
 ``` javascript
 split(" ")("a b") // ["a", "b"]
+split(/-+/)("a---b") // ["a", "b"]
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/split.svg?maxAge=2592000&style=flat-square
