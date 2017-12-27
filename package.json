@@ -59,7 +59,7 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/equals": "2.0.0"
+    "@unction/equals": "3.0.0"
   },
   "files": [
     "transpiled/index.js"
