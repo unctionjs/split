@@ -1,6 +1,6 @@
 {
   "name": "@unction/split",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Splits up a string by a delimiter",
   "keywords": [
     "unction",
