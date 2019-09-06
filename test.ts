@@ -1,5 +1,5 @@
 
-import split from "./index.ts";
+import split from "./index";
 
 test(() => {
   expect(split(" ")("a b")).toEqual(["a", "b"]);
