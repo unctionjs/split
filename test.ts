@@ -1,23 +1,23 @@
 
 import split from "./index";
 
-test(() => {
+test("works", () => {
   expect(split(" ")("a b")).toEqual(["a", "b"]);
 });
 
-test(() => {
+test("works", () => {
   expect(split(" ")("a  b")).toEqual(["a", "", "b"]);
 });
 
-test(() => {
+test("works", () => {
   expect(split("")("a b")).toEqual(["a", " ", "b"]);
 });
 
-test(() => {
+test("works", () => {
   expect(split("---")("a---b")).toEqual(["a", "b"]);
 });
 
 
-test(() => {
+test("works", () => {
   expect(split(/-+/)("a---b")).toEqual(["a", "b"]);
 });
