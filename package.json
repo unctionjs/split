@@ -64,6 +64,6 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/equals": "11.11.0"
+    "@unction/equals": "^11.12.0"
   }
 }
