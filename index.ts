@@ -1,7 +1,7 @@
-import {TextType} from "./types";
+import {string} from "./types";
 
-export default function split (delimiter: TextType) {
-  return function splitDelimiter (text: TextType | RegExp): Array<TextType> {
+export default function split (delimiter: string) {
+  return function splitDelimiter (text: string | RegExp): Array<string> {
     return text.split(delimiter);
   };
 }

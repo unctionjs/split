@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> TextType => (TextType | RegExp) => Array<TextType>
+> string => (string | RegExp) => Array<string>
 
 Splits up a string by a delimiter.
 
